@@ -10,4 +10,8 @@ public class MuseumNotFoundException extends RuntimeException {
     super(message);
   }
 
+  public MuseumNotFoundException() {
+    super();
+  }
+
 }
